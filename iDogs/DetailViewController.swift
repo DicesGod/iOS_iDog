@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import CoreData
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
 
+    @IBOutlet weak var lifespanLabel: UILabel!
+    
+    var lifespanText: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        lifespanLabel.text = lifespanText
     }
 
 

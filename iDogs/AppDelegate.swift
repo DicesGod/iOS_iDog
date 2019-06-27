@@ -1,14 +1,7 @@
-//
-//  AppDelegate.swift
-//  iDogs
-//
-//  Created by Minh Le on 2019-06-27.
-//  Copyright © 2019 Minh Le. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
+var userInteractionDao: UserInteractionDao?
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,7 +9,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        userInteractionDao = UserInteractionDao(withAppDelegate: self)
+        
         return true
     }
 

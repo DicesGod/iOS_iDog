@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		02330C7D22C522F100E5494B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C7C22C522F100E5494B /* AppDelegate.swift */; };
-		02330C7F22C522F100E5494B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C7E22C522F100E5494B /* ViewController.swift */; };
+		02330C7F22C522F100E5494B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C7E22C522F100E5494B /* DetailViewController.swift */; };
 		02330C8222C522F100E5494B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02330C8022C522F100E5494B /* Main.storyboard */; };
 		02330C8522C522F100E5494B /* iDogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02330C8322C522F100E5494B /* iDogs.xcdatamodeld */; };
 		02330C8722C522F400E5494B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02330C8622C522F400E5494B /* Assets.xcassets */; };
 		02330C8A22C522F400E5494B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02330C8822C522F400E5494B /* LaunchScreen.storyboard */; };
+		02330C9222C525C200E5494B /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C9122C525C200E5494B /* DogViewController.swift */; };
+		02330C9422C5270800E5494B /* UserInteractionDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C9322C5270800E5494B /* UserInteractionDao.swift */; };
+		02330C9822C5289300E5494B /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C9722C5289300E5494B /* Dog.swift */; };
+		02330C9A22C52AFD00E5494B /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C9922C52AFD00E5494B /* DogCell.swift */; };
+		02330C9C22C538A800E5494B /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02330C9B22C538A800E5494B /* StatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02330C7922C522F100E5494B /* iDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02330C7C22C522F100E5494B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02330C7E22C522F100E5494B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02330C7E22C522F100E5494B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		02330C8122C522F100E5494B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02330C8422C522F100E5494B /* iDogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDogs.xcdatamodel; sourceTree = "<group>"; };
 		02330C8622C522F400E5494B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02330C8922C522F400E5494B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02330C8B22C522F400E5494B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02330C9122C525C200E5494B /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		02330C9322C5270800E5494B /* UserInteractionDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractionDao.swift; sourceTree = "<group>"; };
+		02330C9722C5289300E5494B /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		02330C9922C52AFD00E5494B /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		02330C9B22C538A800E5494B /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				02330C7C22C522F100E5494B /* AppDelegate.swift */,
-				02330C7E22C522F100E5494B /* ViewController.swift */,
+				02330C7E22C522F100E5494B /* DetailViewController.swift */,
+				02330C9B22C538A800E5494B /* StatsViewController.swift */,
+				02330C9122C525C200E5494B /* DogViewController.swift */,
+				02330C9922C52AFD00E5494B /* DogCell.swift */,
+				02330C9322C5270800E5494B /* UserInteractionDao.swift */,
+				02330C9722C5289300E5494B /* Dog.swift */,
 				02330C8022C522F100E5494B /* Main.storyboard */,
 				02330C8622C522F400E5494B /* Assets.xcassets */,
 				02330C8822C522F400E5494B /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02330C7F22C522F100E5494B /* ViewController.swift in Sources */,
+				02330C7F22C522F100E5494B /* DetailViewController.swift in Sources */,
 				02330C8522C522F100E5494B /* iDogs.xcdatamodeld in Sources */,
+				02330C9C22C538A800E5494B /* StatsViewController.swift in Sources */,
+				02330C9822C5289300E5494B /* Dog.swift in Sources */,
 				02330C7D22C522F100E5494B /* AppDelegate.swift in Sources */,
+				02330C9422C5270800E5494B /* UserInteractionDao.swift in Sources */,
+				02330C9A22C52AFD00E5494B /* DogCell.swift in Sources */,
+				02330C9222C525C200E5494B /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
